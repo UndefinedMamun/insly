@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* Eric meyer's css 2.0 reset start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Eric meyer's css reset end*/
+
+
+
+
+/*----------------------Overall Design Start---------------------------*/
+
+body{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+
+.main-wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.content-wrapper{
+	width: 95%;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+a:active{
+	text-decoration: none;
+	color: white;
+}
+
+/*----------------------Overall Design End---------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*----------------------Header Design Start---------------------------*/
+.top-bar{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	float: left;
+	background: #2b3643;
+	z-index: 10;
+}
+
+.logo{
+	float: left;
+	margin: 5px 0 0 20px;
+}
+
+.logo > a{
+	display: block;
+	width: 100px;
+	height: 40px;
+	background: url(../images/logo.png) no-repeat;
+	background-size: contain;
+}
+
+.top-bar-menu{
+	float: right;
+}
+
+.top-bar-menu > ul{
+	list-style: none;
+	margin: 10px 10px 0 0;
+}
+
+.top-bar-menu > ul > li{
+	float: left;
+	margin: 0;
+}
+
+.top-bar-menu > ul > li > a{
+	display: block;
+	text-decoration: none;
+	padding: 10px 10px 7px 10px;
+	border-radius: 3px;
+	font-size: 12px;
+	color: white;
+}
+
+.top-bar-menu > ul > li > a:hover{
+	background: #D83134;
+}
+
+.mobile-menu-wrapper{	
+	display:none;
+}
+/*----------------------Header Design End---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------Assignment Design 1 Start---------------------------*/
+
+.assignment-1{
+	clear: both;
+	float: left;
+	margin: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url(../images/eiffle-tower.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.40);
+}
+
+.assignment-1 > .mask > a{
+	display: block;
+	margin: 250px auto 0 auto;
+	width: 250px;
+	height: 50px;
+	background: #1864FF;
+	color: #FFFFFF;
+	line-height: 55px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+.assignment-1 > .mask > a:hover{
+	background: #3375FC;
+	color: #FFFFFF;
+}
+
+
+/*----------------------Assignment Design 1 End---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------Assignment Design 2 Start---------------------------*/
+
+.assignment-2{
+	clear: both;
+	float: left;
+	margin: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: url(../images/pexel.jpg) no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow-y: scroll;
+}
+
+.assignment-2 > .mask{
+	width: 100%;
+	position: fixed;
+	background: rgba(0,0,0,0.40);
+	overflow-y: scroll;
+}
+
+.foobar-table{
+	clear: both;
+	margin: 70px auto 0 auto;
+	width: 90%;
+	background: rgba(255,255,255,0.90);
+	text-align: center;
+}
+
+
+
+/*----------------------Assignment Design 2 End---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------Assignment Design 3 Start---------------------------*/
+
+.assignment-3{
+	clear: both;
+	float: left;
+	margin: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	overflow-y: scroll;
+	background: url(../images/butterfly.jpeg) no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.assignment-3 > .mask{
+	width: 100%;
+	position: fixed;
+	overflow-y: scroll;
+	background: rgba(0,0,0,0.40);
+}
+
+.worktime-table{
+	clear: both;
+	margin: 70px auto 0 auto;
+	width: 130%;
+	background: rgba(255,255,255,0.90);
+	text-align: center;
+}
+
+
+
+/*----------------------Assignment Design 3 End---------------------------*/
+
+
